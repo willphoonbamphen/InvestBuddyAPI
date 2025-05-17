@@ -1,4 +1,7 @@
 import { renderHtml } from "./renderHtml";
+import { Hono } from "hono";
+
+const app = new Hono();
 
 export default {
   async fetch(request, env) {
